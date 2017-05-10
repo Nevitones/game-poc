@@ -1,0 +1,28 @@
+{
+  "name": "game-poc",
+  "version": "0.1.0",
+  "description": "Isometric study for the possible development of a playable game in the future.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nevitones/game-poc.git"
+  },
+  "keywords": [
+    "isometric",
+    "game"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nevitones/game-poc/issues"
+  },
+  "homepage": "https://github.com/Nevitones/game-poc#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.0"
+  }
+}
