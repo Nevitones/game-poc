@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+body * {
+  box-sizing: border-box;
+}
+canvas {
+  width: 100%;
+}
