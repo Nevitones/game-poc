@@ -1,26 +1,41 @@
 {
-    "ground": {
-        "imagePath": "vendors/img/landscape/landscape_17.png"
+    "tile": {
+        "width": 128,
+        "height": 64,
+        "depth": 31
     },
-    "grass": {
-        "imagePath": "vendors/img/landscape/landscape_13.png"
-    },
-    "grassGround": {
-        "imagePath": "vendors/img/landscape/landscape_28.png"
-    },
-    "water": {
-        "imagePath": "vendors/img/landscape/landscape_33.png"
-    },
-    "waterTopLeft": {
-        "imagePath": "vendors/img/landscape/landscape_36.png"
-    },
-    "waterTopRight": {
-        "imagePath": "vendors/img/landscape/landscape_01.png"
-    },
-    "waterBottomRight": {
-        "imagePath": "vendors/img/landscape/landscape_05.png"
-    },
-    "waterBottomLeft": {
-        "imagePath": "vendors/img/landscape/landscape_00.png"
+    "images" : {
+        "@": {
+            "name": "ground",
+            "imagePath": "vendors/img/landscape/landscape_17.png"
+        },
+        "#": {
+            "name": "grass",
+            "imagePath": "vendors/img/landscape/landscape_13.png"
+        },
+        "*": {
+            "name": "grassGround",
+            "imagePath": "vendors/img/landscape/landscape_28.png"
+        },
+        "O": {
+            "name": "water",
+            "imagePath": "vendors/img/landscape/landscape_33.png"
+        },
+        "┌": {
+            "name": "waterTopLeft",
+            "imagePath": "vendors/img/landscape/landscape_36.png"
+        },
+        "┐": {
+            "name": "waterTopRight",
+            "imagePath": "vendors/img/landscape/landscape_01.png"
+        },
+        "┘": {
+            "name": "waterBottomRight",
+            "imagePath": "vendors/img/landscape/landscape_05.png"
+        },
+        "└": {
+            "name": "waterBottomLeft",
+            "imagePath": "vendors/img/landscape/landscape_00.png"
+        }
     }
 }
